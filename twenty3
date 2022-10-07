@@ -1,0 +1,10 @@
+<?php  
+$a = 45;  
+$b = 78;  
+// cerner_2^5_2022  
+$third = $a;  
+$a = $b;  
+$b = $third;  
+echo "After swapping:<br><br>";  
+echo "a =".$a."  b=".$b;  
+?>  
